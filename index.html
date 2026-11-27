@@ -34,7 +34,7 @@
 <table>
 <tr><th>Dane</th><th>Cel</th></tr>
 <tr><td>Anonimowy identyfikator użytkownika (Firebase Authentication). Nie jest powiązany z imieniem, nazwiskiem, adresem e-mail ani numerem telefonu.</td><td>Rozpoznanie, który wpis, prośba i wiadomość należą do którego użytkownika.</td></tr>
-<tr><td>Imię (lub pseudonim), numer miejsca, opcjonalna notatka i kod grupy, znacznik „miejsce potwierdzone kartą pokładową", numer lotu i data lotu</td><td>Wyświetlenie Twojego miejsca innym pasażerom tego samego lotu i umożliwienie zamiany.</td></tr>
+<tr><td>Imię (lub pseudonim), numer miejsca, opcjonalna notatka, kod grupy i preferencja miejsca (okno/przejście), znacznik „miejsce potwierdzone kartą pokładową", numer lotu i data lotu</td><td>Wyświetlenie Twojego miejsca innym pasażerom tego samego lotu i umożliwienie zamiany.</td></tr>
 <tr><td>Prośby o zamianę (imiona, miejsca, opcjonalny komentarz, status) i wiadomości czatu (treść, imię, czas)</td><td>Uzgodnienie zamiany między dwiema osobami. Widzą je wyłącznie uczestnicy danej zamiany.</td></tr>
 <tr><td>Zgłoszenia użytkowników (identyfikator zgłaszającego i zgłaszanego, imię, opcjonalny powód, czas)</td><td>Reagowanie na nadużycia i fałszywe dane.</td></tr>
 <tr><td>Dane techniczne przetwarzane przez Google (np. adres IP, identyfikator instalacji Firebase)</td><td>Działanie usług Firebase (logowanie anonimowe, baza danych).</td></tr>
@@ -47,7 +47,7 @@
 <p>Art. 6 ust. 1 lit. b RODO (świadczenie funkcji aplikacji, o którą prosisz) oraz art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes: bezpieczeństwo, zapobieganie nadużyciom).</p>
 
 <h2>4. Odbiorcy danych</h2>
-<p>Dane przechowuje Google Ireland Limited / Google LLC jako podmiot przetwarzający (Firebase Authentication i Cloud Firestore). Imię, miejsce i notatka są widoczne dla innych użytkowników tego samego lotu, a treść czatu dla drugiej strony zamiany. Dane mogą być przekazywane poza Europejski Obszar Gospodarczy na podstawie standardowych klauzul umownych stosowanych przez Google.</p>
+<p>Dane przechowuje Google Ireland Limited / Google LLC jako podmiot przetwarzający (Firebase Authentication i Cloud Firestore). Imię, miejsce, preferencja miejsca i notatka są widoczne dla innych użytkowników tego samego lotu, a treść czatu dla drugiej strony zamiany. Dane mogą być przekazywane poza Europejski Obszar Gospodarczy na podstawie standardowych klauzul umownych stosowanych przez Google.</p>
 
 <h2>4a. Reklamy</h2>
 <p>Aplikacja wyświetla niewielki baner reklamowy Google AdMob (Google Ireland Limited / Google LLC). Aby wyświetlać reklamy, Google może przetwarzać Twój reklamowy identyfikator urządzenia, przybliżoną lokalizację wynikającą z adresu IP, dane o urządzeniu i o interakcji z reklamą oraz dane diagnostyczne. Google działa tu jako odrębny administrator tych danych, zgodnie z własną polityką prywatności: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. W Europejskim Obszarze Gospodarczym i w Wielkiej Brytanii reklamy wymagające zgody są wyświetlane dopiero po jej wyrażeniu w oknie zgody wyświetlanym przy pierwszym uruchomieniu. Zgodę możesz zmienić w dowolnym momencie w Ustawieniach aplikacji (Ustawienia prywatności reklam). Reklamami spersonalizowanymi możesz też zarządzać w ustawieniach Androida (Google, Reklamy, Usuń identyfikator reklamowy). Podstawa prawna: art. 6 ust. 1 lit. a RODO (zgoda). Imię, miejsce, notatki i czat nie są przekazywane do sieci reklamowej. Aplikacja jest darmowa dzięki reklamom, dlatego w EOG i Wielkiej Brytanii korzystanie z niej wymaga wyboru ustawień zgody na reklamy.</p>
@@ -92,7 +92,7 @@
 <table>
 <tr><th>Data</th><th>Purpose</th></tr>
 <tr><td>An anonymous user ID (Firebase Authentication). It is not linked to your name, email address or phone number.</td><td>To tell which entry, request and message belongs to which user.</td></tr>
-<tr><td>First name (or nickname), seat number, optional note and group code, a flag "seat confirmed with boarding pass", flight number and flight date</td><td>To show your seat to other passengers on the same flight and make swaps possible.</td></tr>
+<tr><td>First name (or nickname), seat number, optional note, group code and seat preference (window/aisle), a flag "seat confirmed with boarding pass", flight number and flight date</td><td>To show your seat to other passengers on the same flight and make swaps possible.</td></tr>
 <tr><td>Swap requests (names, seats, optional comment, status) and chat messages (text, name, time)</td><td>To arrange a swap between two people. Only the participants of that swap can see them.</td></tr>
 <tr><td>User reports (reporter and reported user IDs, name, optional reason, time)</td><td>To respond to abuse and false information.</td></tr>
 <tr><td>Technical data processed by Google (e.g. IP address, Firebase installation ID)</td><td>To operate Firebase services (anonymous sign-in, database).</td></tr>
@@ -105,7 +105,7 @@
 <p>Art. 6(1)(b) GDPR (providing the app functions you ask for) and Art. 6(1)(f) GDPR (legitimate interest: security and abuse prevention).</p>
 
 <h2>4. Recipients</h2>
-<p>Data is stored by Google Ireland Limited / Google LLC as a processor (Firebase Authentication and Cloud Firestore). Your name, seat and note are visible to other users on the same flight, and chat content to the other party of the swap. Data may be transferred outside the European Economic Area under the standard contractual clauses used by Google.</p>
+<p>Data is stored by Google Ireland Limited / Google LLC as a processor (Firebase Authentication and Cloud Firestore). Your name, seat, seat preference and note are visible to other users on the same flight, and chat content to the other party of the swap. Data may be transferred outside the European Economic Area under the standard contractual clauses used by Google.</p>
 
 <h2>4a. Advertising</h2>
 <p>The app shows a small Google AdMob banner ad (Google Ireland Limited / Google LLC). To serve ads, Google may process your device advertising ID, approximate location derived from your IP address, device and ad-interaction data, and diagnostics. Google acts as an independent controller of this data under its own privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. In the European Economic Area and the United Kingdom, ads that require consent are shown only after you give it in the consent dialog displayed at first launch. You can change your choice at any time in the app Settings (Ad privacy settings). You can also manage personalised ads in Android settings (Google, Ads, Delete advertising ID). Legal basis: Art. 6(1)(a) GDPR (consent). Your name, seat, notes and chat are not shared with the ad network. The app is free thanks to ads, so in the EEA and the UK using it requires choosing your ad consent settings.</p>
